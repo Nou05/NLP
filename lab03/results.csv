@@ -1,0 +1,16 @@
+experiment,parameter_name,parameter_value,word_pair,metric_name,metric_value
+exp4_dimension,vector_size,50,N/A,training_time_sec,239.99
+exp4_dimension,vector_size,50,N/A,model_size_mb,42.12
+exp4_dimension,vector_size,50,doctor-physician,cosine_similarity,0.8245
+exp4_dimension,vector_size,50,germany-france+paris,analogy_top1,london
+exp4_dimension,vector_size,50,doc1-doc2,downstream_doc_sim,0.8922
+exp4_dimension,vector_size,100,N/A,training_time_sec,368.92
+exp4_dimension,vector_size,100,N/A,model_size_mb,81.16
+exp4_dimension,vector_size,100,doctor-physician,cosine_similarity,0.7623
+exp4_dimension,vector_size,100,germany-france+paris,analogy_top1,helsinki
+exp4_dimension,vector_size,100,doc1-doc2,downstream_doc_sim,0.8647
+exp4_dimension,vector_size,300,N/A,training_time_sec,914.07
+exp4_dimension,vector_size,300,N/A,model_size_mb,3.07
+exp4_dimension,vector_size,300,doctor-physician,cosine_similarity,0.5461
+exp4_dimension,vector_size,300,germany-france+paris,analogy_top1,munich
+exp4_dimension,vector_size,300,doc1-doc2,downstream_doc_sim,0.7239
