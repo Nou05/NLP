@@ -1,0 +1,8 @@
+Model,Representation,Sequence_Length,Parameters,Training_Time_Sec,Accuracy,Precision,Recall,F1_Score
+Logistic Regression,TF-IDF,,10000,0.41,0.8968,0.8924,0.9024,0.8974
+Logistic Regression,TF-IDF,,10000,0.39,0.8968,0.8924,0.9024,0.8974
+RNN,Embedding,100.0,1313153,284.15,0.5521,0.5599,0.487,0.5209
+GRU,Embedding,100.0,1379201,407.93,0.8283,0.8726,0.7688,0.8174
+LSTM,Embedding,50.0,1412225,80.37,0.7748,0.7537,0.8164,0.7838
+LSTM,Embedding,200.0,1412225,2201.94,0.696,0.7707,0.558,0.6473
+LSTM,Embedding,100.0,1412225,196.3,0.8256,0.8424,0.801,0.8212
