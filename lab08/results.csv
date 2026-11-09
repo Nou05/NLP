@@ -1,0 +1,15 @@
+Model,Accuracy,F1,Training time (s),Encoder trainable?,Experiment,Max length,GPU/CPU memory,Precision,Recall,Variant,Encoder Status
+Mode A (Frozen Encoder),0.44,0.3056,19.86,No,,,,,,,
+Mode B (Fine-tuning),0.46,0.458,60.86,Yes,,,,,,,
+Mode A (Frozen Encoder),0.56,0.359,18.9,No,,,,,,,
+Mode B (Fine-tuning),0.58,0.44,63.03,Yes,,,,,,,
+BERT (Data 10%),0.46,0.3443,9.47,Yes,,,,,,,
+BERT (Data 25%),0.62,0.6007,18.85,Yes,,,,,,,
+BERT (Data 50%),0.62,0.6124,47.11,Yes,,,,,,,
+BERT (Data 100%),0.48,0.4583,52.03,Yes,,,,,,,
+BERT (MaxLen=64),0.56,0.5098,25.15,,Exp 4: Seq Length,64.0,CPU RAM (~N/A),,,,
+BERT (MaxLen=128),0.54,0.4165,69.05,,Exp 4: Seq Length,128.0,CPU RAM (~N/A),,,,
+BERT (MaxLen=256),0.66,0.6532,184.22,,Exp 4: Seq Length,256.0,CPU RAM (~N/A),,,,
+BERT Fine-Tuned (IMDb),1.0,1.0,124.86,,Section 19: Application Task,,,1.0,1.0,,
+,0.48,0.3243,18.91,,,,,,,Feature Extraction (Frozen),requires_grad = False
+,1.0,1.0,51.86,,,,,,,Full Fine-Tuning,requires_grad = True
