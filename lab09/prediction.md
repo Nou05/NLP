@@ -1,0 +1,1 @@
+![Trang 1](./prediction_lab09.jpg)
