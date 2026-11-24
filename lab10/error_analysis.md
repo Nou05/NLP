@@ -21,3 +21,12 @@
    * Mô hình thường bị phân vân khi có **mạo từ, danh xưng hoặc trạng từ ước lượng** đứng ngay trước thực thể chính (ví dụ: *"Sir Christopher Wren"* vs *"Christopher Wren"*, hoặc *"about 500"* vs *"500"*).
 3. **Hạn chế kiến trúc:**
    * Hai bộ phân loại `start_logits` và `end_logits` dự đoán xác suất biên một cách **độc lập có điều kiện**, không có cơ chế ràng buộc cấu trúc cụm từ (constituency/dependency parsing) để đảm bảo `(start, end)` tạo thành một đơn vị ngữ pháp trọn vẹn.
+
+
+---
+### Bản viết tay (Error Analysis Handwritten Scan)
+- 📄 **File PDF gốc:** [erroranalysislab10.pdf](scans/erroranalysislab10.pdf)
+
+![Error Analysis Handwritten Scan - Trang 1](scans/erroranalysislab10_page1.png)
+![Error Analysis Handwritten Scan - Trang 2](scans/erroranalysislab10_page2.png)
+![Error Analysis Handwritten Scan - Trang 3](scans/erroranalysislab10_page3.png)
