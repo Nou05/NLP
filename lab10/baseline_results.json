@@ -1,0 +1,6 @@
+{
+  "model": "Keyword_Overlap_Heuristic_Baseline",
+  "num_samples": 100,
+  "EM": 2.0,
+  "F1": 19.31
+}
