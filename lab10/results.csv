@@ -2,3 +2,4 @@ Experiment,Max length,EM,F1,Training time (s)
 Exp1_Context_Length,128,41.0,52.07,153.79
 Exp1_Context_Length,256,28.6,39.2,159.52
 Exp1_Context_Length,384,29.6,40.47,200.39
+Exp2_Pretrained_QA,256,4.0,9.01,36.2
