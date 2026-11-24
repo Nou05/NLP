@@ -6,3 +6,5 @@ Exp2_Pretrained_QA,256,4.0,9.01,36.2
 Exp3_Baseline,256,0.0,16.22,0.0
 Exp3_Finetuned,256,4.0,9.01,0.0
 Exp_Baseline_Heuristic,0,2.0,19.31,0.01
+Exp4_High_Lexical_Overlap,256,5.0,9.02,0.0
+Exp4_Low_Lexical_Overlap,256,2.5,7.78,0.0
